@@ -43,6 +43,10 @@
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:3.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:3.2.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.webflow:org.springframework.webflow:2.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.webflow:org.springframework.binding:2.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.webflow:org.springframework.js:2.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.el:jboss-el:2.0.2.CR1" level="project" />
   </component>
 </module>
 
