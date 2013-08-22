@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5a32e6-e301-466d-9aff-93c06b384cdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/addToCart.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/action/ShoppingProducts.java" afterPath="$PROJECT_DIR$/src/main/java/action/ShoppingProducts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ShoppingProductsTest.java" afterPath="$PROJECT_DIR$/src/test/java/ShoppingProductsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/products.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/products.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/shopping.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/shopping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/webflow-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/webflow-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringWebFlowDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377184327650" ignored="false" />
-    <file path="/Dummy.txt" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377196141021" ignored="false" />
+    <file path="/Dummy.txt" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377202319598" ignored="false" />
     <file path="/web.xml" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377009413775" ignored="false" />
     <file path="/web-application-config" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377008638991" ignored="false" />
     <file path="/web-application-config.xml" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377080925028" ignored="false" />
@@ -783,7 +776,11 @@
       <created>1377190295861</created>
       <updated>1377190295861</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make add Product function">
+      <created>1377202328729</created>
+      <updated>1377202328729</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -860,7 +857,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="display Products" />
+    <option name="LAST_COMMIT_MESSAGE" value="make add Product function" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -875,6 +872,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="display Products" />
+    <MESSAGE value="make add Product function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
