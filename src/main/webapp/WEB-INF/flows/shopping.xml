@@ -5,6 +5,9 @@
       http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
 
     <view-state id="products"  view="products">
+        <on-render>
+            <evaluate expression="shoppingProducts.getProducts()" result="viewScope.products"/>
+        </on-render>
         <transition on="submit" to="order"/>
     </view-state>
     <end-state id="order" />
