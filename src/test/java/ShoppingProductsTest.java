@@ -19,4 +19,13 @@ public class ShoppingProductsTest {
         assertThat(product.getName(), is("Programming Perls"));
         assertTrue(product.getPrice() == 39.0);
     }
+
+    @Test
+    public void shouldAddProductTooCart() throws Exception {
+        ShoppingProducts shoppingProducts = new ShoppingProducts();
+        shoppingProducts.addProduct("Programming Perls");
+        shoppingProducts.addProduct("Maven Action");
+        assertTrue(shoppingProducts.getAddedProduct().size()>0);
+        assertTrue(shoppingProducts.getAddedProduct().get(shoppingProducts.getProducts().get(0))==1);
+    }
 }

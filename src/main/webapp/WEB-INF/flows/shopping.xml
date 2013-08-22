@@ -8,7 +8,16 @@
         <on-render>
             <evaluate expression="shoppingProducts.getProducts()" result="viewScope.products"/>
         </on-render>
-        <transition on="submit" to="order"/>
+        <transition on="addProduct" to="addProduct"/>
+        <transition on="viewCart" to="order"/>
     </view-state>
-    <end-state id="order" />
+    <subflow-state id="addProduct" subflow="addToCart">
+        <transition on="orderProduct" to="order"></transition>
+    </subflow-state>
+    <view-state id="order"  view="order">
+    <on-render>
+        <evaluate expression="shoppingProducts.getAddedProduct()" result="viewScope.addedProduct"/>
+    </on-render>
+        <transition on="backToProducts" to="products"></transition>
+    </view-state>
 </flow>

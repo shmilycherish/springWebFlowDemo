@@ -14,15 +14,19 @@
 <tr>
     <th>name</th>
     <th>price</th>
+    <th></th>
 </tr>
 <tbody>
     <c:forEach var="product" items="${products}">
         <tr>
             <td>${product.name}</td>
             <td>${product.price}</td>
+            <td><a href="${flowExecutionUrl}&_eventId=addProduct&name=${product.name}">ADD</a></td>
         </tr>
     </c:forEach>
 </tbody>
 </table>
+<a href="${flowExecutionUrl}&_eventId=viewCart">view my cart</a></td>
+
 </body>
 </html>
