@@ -7,7 +7,7 @@
     <ignored path="SpringWebFlowDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377184327650" ignored="false" />
-    <file path="/Dummy.txt" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377202319598" ignored="false" />
+    <file path="/Dummy.txt" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377202338065" ignored="false" />
     <file path="/web.xml" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377009413775" ignored="false" />
     <file path="/web-application-config" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377008638991" ignored="false" />
     <file path="/web-application-config.xml" changelist="ee5a32e6-e301-466d-9aff-93c06b384cdf" time="1377080925028" ignored="false" />
@@ -780,7 +780,11 @@
       <created>1377202328729</created>
       <updated>1377202328729</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make add Product function">
+      <created>1377202341419</created>
+      <updated>1377202341419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
