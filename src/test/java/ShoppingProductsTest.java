@@ -8,7 +8,8 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
-public class ShoppingProductsTest {
+public class
+        ShoppingProductsTest {
 
     @Test
     public void shouldGetProductsList() throws Exception {
@@ -26,6 +27,15 @@ public class ShoppingProductsTest {
         shoppingProducts.addProduct("Programming Perls");
         shoppingProducts.addProduct("Maven Action");
         assertTrue(shoppingProducts.getAddedProduct().size()>0);
-        assertTrue(shoppingProducts.getAddedProduct().get(shoppingProducts.getProducts().get(0))==1);
+        assertTrue(shoppingProducts.getAddedProduct().get(shoppingProducts.getProducts().get(0)) == 1);
+    }
+
+    @Test
+    public void shouldGetRightTotalPrice() throws Exception {
+        ShoppingProducts shoppingProducts = new ShoppingProducts();
+        shoppingProducts.addProduct("Programming Perls");
+        shoppingProducts.addProduct("Maven Action");
+        assertThat(shoppingProducts.getTotalPrice(),is(104.0));
+
     }
 }

@@ -24,7 +24,13 @@
                         <td>${addedProduct.value}</td>
                     </tr>
                 </c:forEach>
+                <tr>
+                    <td>totalPrice</td>
+                    <td></td>
+                    <td>${totalPrice}</td>
+                </tr>
             </table>
+            <a href="${flowExecutionUrl}&_eventId=submitOrder">sumbit order</a>
         </c:when>
         <c:otherwise>
             did not add any products

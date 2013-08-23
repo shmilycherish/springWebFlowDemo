@@ -16,8 +16,13 @@
     </subflow-state>
     <view-state id="order"  view="order">
     <on-render>
-        <evaluate expression="shoppingProducts.getAddedProduct()" result="viewScope.addedProduct"/>
+        <evaluate expression="shoppingProducts.getAddedProduct()" result="flowScope.addedProduct"/>
+        <evaluate expression="shoppingProducts.getTotalPrice()"  result="flowScope.totalPrice"/>
     </on-render>
         <transition on="backToProducts" to="products"></transition>
+        <transition on="submitOrder" to="submitOrder"></transition>
+    </view-state>
+    <view-state id="submitOrder"  view="orderSummary">
+        <transition on="backToOrder" to="order"></transition>
     </view-state>
 </flow>

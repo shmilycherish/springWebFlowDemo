@@ -9,6 +9,8 @@ import java.util.Map;
 
 @Service("shoppingProducts")
 public class ShoppingProducts{
+    private double totalPrice=0;
+
     public Map<Product, Integer> getAddedProduct() {
         return addedProduct;
     }
@@ -42,5 +44,15 @@ public class ShoppingProducts{
         } else {
              addedProduct.put(product,addedProduct.get(product)+1);
         }
+    }
+
+    public double getTotalPrice() {
+        totalPrice=0;
+        for (Map.Entry<Product, Integer> productNumberEntry : addedProduct.entrySet()) {
+             Product product= productNumberEntry.getKey();
+             totalPrice+=product.getPrice()*productNumberEntry.getValue();
+        }
+
+        return totalPrice;
     }
 }
