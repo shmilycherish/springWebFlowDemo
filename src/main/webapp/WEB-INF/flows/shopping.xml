@@ -24,5 +24,9 @@
     </view-state>
     <view-state id="submitOrder"  view="orderSummary">
         <transition on="backToOrder" to="order"></transition>
+        <transition on="confirmed" to="orderCofirmed"></transition>
+    </view-state>
+    <view-state id="orderCofirmed"  view="orderConfirm">
+        <transition on="backToOrder" to="order"></transition>
     </view-state>
 </flow>

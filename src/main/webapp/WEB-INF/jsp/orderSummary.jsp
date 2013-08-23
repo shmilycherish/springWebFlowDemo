@@ -31,5 +31,8 @@
 <p>
     <a href="${flowExecutionUrl}&_eventId=backToOrder">view orders</a>
 </p>
+
+    <a href="${flowExecutionUrl}&_eventId=confirmed">confirm orders</a>
+
 </body>
 </html>
